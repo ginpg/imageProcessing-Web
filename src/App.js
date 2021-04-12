@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import React, {Fragment} from 'react';
+import logo from './assets/logo.svg';
 import './App.css';
 
+import NavBar from './components/NavBar'
+import Workplace from './components/Workplace'
+
 function App() {
+
   return (
+    <Fragment>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="colunm">
+          <h2 className="text-align-center">Editor de imagenes</h2>
+          <h6>Hecho por Giselt Grimilda y Denis Adrián</h6>
+        </div>
       </header>
+
+      <NavBar/>
+      <Workplace/>
     </div>
+    
+    </Fragment>
   );
 }
 
