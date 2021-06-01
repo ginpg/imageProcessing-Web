@@ -1,0 +1,50 @@
+.notas {
+  /* display: block (uno debajo de otro) | flex (uno al lado del otro o cuanto quepa creo) */
+  /* border: 3px solid black bord (para bordear el bloque, así saber cuánto abarca cada cosa) */
+  /* contenedor -> width */
+  /* margin: eje-y eje x auto (para centrar)*/
+  /* padding: margen interno */
+  /* float: literalmente flota */
+}
+
+.header {
+  padding: 125px;
+  background: url("../assets//assets/images/fondo.jpg") no-repeat center
+    center/cover;
+  color: rgb(252, 252, 252);
+}
+
+.nav {
+  background-color: #71826f33;
+  color: aliceblue;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+
+.app {
+  display: block;
+  background-color: #aff7ab;
+  height: 100%;
+  margin: 15px auto;
+  padding: 5px;
+}
+
+.workspace {
+  background-color: #c7d6e8;
+  padding: 15px 15px;
+  margin: 0 auto;
+  display: block;
+}
+
+.workspace img {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.menubar {
+  border: 1px solid black;
+}
